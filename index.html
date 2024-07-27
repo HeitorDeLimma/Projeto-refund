@@ -46,13 +46,7 @@
 
           <fieldset>
             <legend>Valor da despesa</legend>
-            <input 
-            type="text" 
-            name="amount" 
-            id="amount" 
-            placeholder="R$0,00" 
-            required
-            >
+            <input type="text" name="amount" id="amount" placeholder="R$0,00" required>
           </fieldset>
         </div>
 
@@ -69,24 +63,39 @@
           <h2>
             <small>R$</small>0,00
           </h2>
-
-          <ul>
-            <li class="expense">
-              <img src="./img/food.svg" alt="Icone do tipo despesa">
-
-              <div>
-                <strong>Almoço</strong>
-                <span>Alimentação</span>
-              </div>
-
-              <span class="expense-amount">
-                <small>R$</small>1.420,57
-              </span>
-
-              <img src="./img/remove.svg" alt="Icone remove">
-            </li>
-          </ul>
         </header>
+
+        <ul>
+          <li class="expense">
+            <img src="./img/food.svg" alt="Icone do tipo despesa">
+
+            <div class="expense-info">
+              <strong>Almoço</strong>
+              <span>Alimentação</span>
+            </div>
+
+            <span class="expense-amount">
+              <small>R$</small>1.420,57
+            </span>
+
+            <img src="./img/remove.svg" alt="Icone remove" class="remove-icon">
+          </li>
+
+          <li class="expense">
+            <img src="./img/transport.svg" alt="Icone do tipo despesa">
+
+            <div class="expense-info">
+              <strong>Gasolina</strong>
+              <span>Transporte</span>
+            </div>
+
+            <span class="expense-amount">
+              <small>R$</small>5.220,57
+            </span>
+
+            <img src="./img/remove.svg" alt="Icone remove" class="remove-icon">
+          </li>
+        </ul>
       </aside>
     </section>
   </main>
